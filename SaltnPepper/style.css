@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: black !important;
+  padding: 10px 80px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+}
+
+.logo-img {
+  max-width: 120px;
+  height: auto;
+}
+
+.nav-link {
+  color: white !important;
+  border-radius: 20px;
+  padding: 8px 16px;
+  transition: all .3s;
+}
+
+.nav-buttons .btn {
+  padding: 10px 10px;
+  border-radius: 40px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.btn-outline-light {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #e50914;
+  border: none;
+  color: white;
+}
+
+.btn-danger .arrow {
+  background-color: white;
+  color: red;
+  border-radius: 50%;
+  padding: 0.2rem 0.4rem;
+  margin-left: 5px;
+}
+
+/* Toggler */
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Responsive fixes */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 1rem 1rem;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .nav-buttons {
+    display: none !important;
+  }
+
+  .logo-img {
+    max-width: 100px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    max-width: 100%;
+  }
+
+  .order-btn {
+    white-space: nowrap;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+  }
+}
+
+
+.welcome {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  background-color: black !important;
+}
+
+.welcomediv span{
+  font-family: futurak;
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+.welcomediv h2 {
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+
+}
+
+.paragraph {
+  color: white;
+}
+
+.welcomecards {
+  padding: 20px;
+  justify-content: space-between !important;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 10px;
+  height: 100%;
+}
+
+.cardimg {
+  height: 100px;
+  background-color: white;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.cardimg img {
+  height: 20px;
+  object-fit: contain;
+
+}
+
+.brand-button {
+  width: 50%;
+  margin: 10px auto;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 8px 0;
+  border-radius: 20px;
+  font-size: 13px;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+
+.restaurants {
+  padding: 50px 40px;
+  padding-top: 40px;
+}
+
+.restdiv {
+  padding-top: 100px;
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+
+}
+.restdiv span{
+  
+  font-family: futurak;
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+.restpara {
+  color: white;
+}
+
+.name {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.details span{
+font-family: futurak;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+
+.details h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.address,
+.call {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.city {
+  justify-content: space-evenly;
+  padding: 20px 40px;
+  margin: 50px 0;
+}
+
+.city .details button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border: 1px solid grey
+}
+
+.city .details button img {
+  width: 20px;
+}
+
+.city .imgDiv img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.city .restdetail {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.express {
+  background-color: black !important;
+  padding: 50px 40px;
+}
+
+.head h2 {
+  font-size: 48px;
+  color: white;
+}
+.head span{
+  font-family: futurak;
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+.imgDiv {
+  height: 250px;
+  overflow: hidden;
+}
+
+.express .cardmain .imgDiv img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.express .cardmain .detailmain .details {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.express .cardmain .detailmain .details p {
+  margin-bottom: 0;
+}
+
+.expressName {
+  color: red;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.expressheading {
+  font-size: 22px;
+  color: white;
+}
+
+.head h2{
+  color: white;
+}
+
+.expressheading span {
+  font-size: 30px;
+  color: white;
+}
+
+.express .details button {
+  background-color: transparent;
+  border-radius: 40px;
+  color: white;
+  border: 1px solid gray;
+  display: flex;
+  gap: 15px;
+  padding: 10px 20px;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.express .details button img {
+  width: 25px;
+
+}
+
+
+.heading {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.heading h1 {
+  font-family: futurak;
+  font-weight: bolder;
+  font-size: 55px;
+  color: white
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.location-img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.info-section {
+  margin-top: 30px;
+  color:white;
+}
+
+.info-section h4 {
+  color: #e50914;
+  letter-spacing: 2px;
+}
+
+.info-section h3 {
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #218838;
+}
+
+.diagonal-arrow{
+transform: rotate(-45deg); 
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.section-title h1 {
+  font-family: futurak;
+  font-weight: bolder;
+  font-size: 55px;
+  color: white !important;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color:white !important;
+}
+
+.card-custom {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  height: 100%;
+}
+
+.card-custom img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.card-custom .status {
+  color: red;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.card-custom .location {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-custom .city {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.franchise-grid {
+  padding: 50px 0;
+}
+
+.social {
+  color: white !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards {
+  background-color: transparent;
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer a:hover {
+  color: #dc3545 !important;
+  transition: 0.3s;
+}
